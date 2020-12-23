@@ -193,7 +193,7 @@ const Game = () => {
                 state.grid.map(block => (
                     <div 
                         key={ block.id }
-                        className="block"
+                        className={`block ${block.state === 0? 'one': 'two'}`}
                         onClick={() => { handleClick(block.id) }}
                     >
                     {

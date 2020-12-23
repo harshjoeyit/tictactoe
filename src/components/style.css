@@ -14,7 +14,7 @@
 .grid {
     width: 375px;
     height: 375px;
-    background-color: rgba(241, 226, 197, 0.466);
+    background-color: rgb(219, 211, 230);
 
     margin: 40px auto;
     display: flex;
@@ -26,11 +26,19 @@
 .block {
     width: 125px;
     height: 125px;
-    border: 1px solid #ab75bbc0;
+    border: 2px solid #ab75bb;
     text-align: center;
     font-size: 90px;
-    color:white;
 }
+
+.one {
+    color: #c300ffc0;
+}
+
+.two {
+    color: #6032f5bb;
+}
+
 .block:hover {
     cursor: pointer;
 }
